@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+* { margin:0; padding:0; font-family:'Noto Sans KR', sans-serif; }
+li { list-style-type:none; }
+img { border:0; vertical-align:middle; }
+a { text-decoration:none; color:#000; }
+
+
+#wrap { width:cover; height:auto; }
+
+header { width:1200px; height:300px; background-color:#fff; /* outline:1px solid red; */
+			vertical-align:center; margin:0 auto; }
+
+nav { left:620px; position:absolute; }
+nav li { position:relative; display:inline-block; width:180px; height:50px; top:80px; 
+			font-size:16px; background-color:rgba(0,0,0,0.1); line-height:50px;
+			margin-left:0; color:#9452f3; z-index:1; }
+			nav li a { font-size:16px; color:#9452f3;  padding:15px 90px 15px 15px;  }
+				nav li a:hover { font-size:16px; color:#9452f3; font-weight:bold; }
+
+.page3 { margin-left:620px; top:1080px; /* outline:1px solid red; */}
+.skillTitle { font-size:22px; margin-bottom:18px; font-weight:600; }
+.skill_p { line-height:36px; margin-left:20px; }
+
+.tool { position:absolute; top:350px; float:right; right:120px; font-size:16px; }
+.tool li { position:relative; display:inline-block; }
+.toolLevel_H { padding-right:250px; }
+.toolLevel_M {  }
+.toolLevel_L { padding-left:250px;  }
+
+/* 툴 능력 */
+.bar1 { background-color:#888; width:500px; height:10px;
+		position:relative; float:right; top:0px; right:120px; }
+.bar2 { background-color:#888; width:500px; height:10px;
+		position:relative; float:right; top:0px; right:120px; }
+.bar3 { background-color:#888; width:370px; height:10px;
+		position:relative; float:right; top:0px; right:120px; }
+.bar4 { background-color:#888; width:380px; height:10px;
+		position:relative; float:right; top:0px; right:120px; }
+.bar5 { background-color:#888; width:100px; height:10px;
+		position:relative; float:right; top:0px; right:120px; }
+
+.contact { font-size:22px; margin:32px 0 18px 0; font-weight:600; }
+.contact_p { line-height:32px; margin-left:20px; }
